@@ -2,8 +2,38 @@
     display: none;
 }
 
+.loginInputStyle {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.loginSubmitStyle {
+    height: 36px;
+    border-radius: 10px;
+    transform: translate(0%, 1%);
+}
+
+.loginFormStyle {
+    position: absolute;
+    margin: 0%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.userStyle {
+    font-size: 50px;
+    color: aliceblue;
+    position: absolute;
+    margin: 0%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .timeStyle {
-    font-size: 70px;
+    font-size: 80px;
     color: aliceblue;
     position: absolute;
     margin: 0%;

@@ -1,4 +1,5 @@
 const loginInput = document.querySelector("#login input:first-child");
+const loginSubmit = document.querySelector("#login input:last-child");
 const loginForm = document.querySelector("#login");
 const username = document.querySelector("#username");
 
@@ -24,3 +25,8 @@ function submitEvent(event) {
 }
 
 loginForm.addEventListener("submit", submitEvent);
+
+loginForm.classList.add("loginFormStyle");
+loginInput.classList.add("loginInputStyle");
+loginSubmit.classList.add("loginSubmitStyle");
+username.classList.add("userStyle");
