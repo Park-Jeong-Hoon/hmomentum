@@ -1,5 +1,6 @@
 const todoForm = document.querySelector("#todo-form");
 const todoInput = todoForm.querySelector("input:first-child");
+const todoBtn = todoForm.querySelector("input:last-child");
 const todoList = document.querySelector("#todo-list");
 
 let todos = []; //할 일 목록을 담는 배열
@@ -21,11 +22,14 @@ function deleteTodo(event) { //클릭된 할 일 목록 제거
 function drawTodo(newTodo) { //할 일 목록을 화면에 나타내주는 함수
     const li = document.createElement("li"); //js에서 createElement를 이용해 li 태그 생성
     li.id = newTodo.id; //li 태그의 id로 newTodo의 id 속성 할당
+    li.classList.add("todoliStyle");
     const span = document.createElement("span"); //span 태그 생성
     span.innerText = newTodo.name; //span 태그의 내용으로는 newTodo의 name 속성 할당
+    span.classList.add("todoSpanStyle");
     const btn = document.createElement("button"); //button 태그 생성
     btn.innerText = "삭제";
     btn.addEventListener("click", deleteTodo);
+    btn.classList.add("todoDeleteStyle");
     li.appendChild(span); //li의 자식 태그로 span 추가(element를 생성을 하더라고 appendChild를 해주지 않으면 화면에 안나타남.)
     li.appendChild(btn); //li의 자식 태그로 btn 추가
     todoList.appendChild(li); //todoList의 자식 태그로 li 추가
@@ -52,3 +56,8 @@ if(getTodos) { //localStorage에 todos배열에 대한 내용이 있을 경우
 }
 
 todoForm.addEventListener("submit", todoSubmit);
+
+todoForm.classList.add("todoFormStyle");
+todoInput.classList.add("todoInputStyle");
+todoBtn.classList.add("todoSubmitStyle");
+todoList.classList.add("todoListStyle");

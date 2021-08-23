@@ -32,12 +32,56 @@
     transform: translate(-50%, -50%);
 }
 
+.todoFormStyle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todoInputStyle {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.todoSubmitStyle {
+    height: 36px;
+    border-radius: 10px;
+    transform: translate(0%, 3%);
+}
+
+.todoListStyle {
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 10px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.todoliStyle {
+    font-size: 30px;
+}
+
+.todoSpanStyle {
+    font-size: 30px;
+}
+
+.todoDeleteStyle {
+    height: 36px;
+    border-radius: 10px;
+    transform: translate(10%, -10%);
+}
+
 .timeStyle {
-    font-size: 80px;
+    font-size: 100px;
     color: aliceblue;
     position: absolute;
     margin: 0%;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
