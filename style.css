@@ -94,3 +94,27 @@
     height: 100%;
     z-index: -1;
 }
+
+.sayingStyle {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    width: 70%;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.whoStyle {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
