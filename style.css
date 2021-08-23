@@ -103,7 +103,7 @@
     color: aliceblue;
     position: absolute;
     width: 70%;
-    top: 5%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -114,7 +114,13 @@
     font-size: 15px;
     color: aliceblue;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.weatherStyle {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    color: aliceblue;
 }

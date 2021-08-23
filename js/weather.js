@@ -9,7 +9,9 @@ function ok(position) {
         const weather = document.querySelector("#weather span:first-child");
         const area = document.querySelector("#weather span:last-child");
         weather.innerText = `날씨= ${data.weather[0].main}`;
+        weather.classList.add("weatherStyle");
         area.innerText = `현재위치= ${data.name}`;
+        area.classList.add("weatherStyle");
     })
 }
 
