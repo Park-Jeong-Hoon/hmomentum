@@ -12,6 +12,7 @@
     height: 36px;
     border-radius: 10px;
     transform: translate(0%, 1%);
+    cursor: pointer;
 }
 
 .loginFormStyle {
@@ -49,6 +50,7 @@
     height: 36px;
     border-radius: 10px;
     transform: translate(0%, 3%);
+    cursor: pointer;
 }
 
 .todoListStyle {
@@ -74,6 +76,7 @@
     height: 36px;
     border-radius: 10px;
     transform: translate(10%, -10%);
+    cursor: pointer;
 }
 
 .timeStyle {
