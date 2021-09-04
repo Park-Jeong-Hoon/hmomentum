@@ -2,20 +2,7 @@
     display: none;
 }
 
-.loginInputStyle {
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-}
-
-.loginSubmitStyle {
-    height: 36px;
-    border-radius: 10px;
-    transform: translate(0%, 1%);
-    cursor: pointer;
-}
-
-.loginFormStyle {
+#login {
     position: absolute;
     margin: 0%;
     top: 40%;
@@ -23,7 +10,20 @@
     transform: translate(-50%, -50%);
 }
 
-.userStyle {
+#login input:first-child {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#login input:last-child {
+    height: 36px;
+    border-radius: 10px;
+    transform: translate(0%, 1%);
+    cursor: pointer;
+}
+
+#username {
     font-size: 50px;
     color: aliceblue;
     position: absolute;
