@@ -25,8 +25,3 @@ function submitEvent(event) {
 }
 
 loginForm.addEventListener("submit", submitEvent);
-
-loginForm.classList.add("loginFormStyle");
-loginInput.classList.add("loginInputStyle");
-loginSubmit.classList.add("loginSubmitStyle");
-username.classList.add("userStyle");
