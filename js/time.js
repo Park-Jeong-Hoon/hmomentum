@@ -13,5 +13,3 @@ function nowTime() {
 
 nowTime();
 setInterval(nowTime, 1000); //1000밀리초의 간격을 두고 nowTime함수가 실행된다.
-
-time.classList.add("timeStyle");
