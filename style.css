@@ -80,7 +80,7 @@
     cursor: pointer;
 }
 
-.timeStyle {
+#time {
     font-size: 100px;
     color: aliceblue;
     position: absolute;
