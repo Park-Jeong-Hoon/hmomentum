@@ -48,6 +48,3 @@ const randNum = Math.floor(Math.random()*sayings.length);
 
 sayingSpan.innerText = sayings[randNum].saying;
 whoSpan.innerText = sayings[randNum].who;
-
-sayingSpan.classList.add("sayingStyle");
-whoSpan.classList.add("whoStyle");
