@@ -2,24 +2,25 @@
     display: none;
 }
 
+.loginFlex {
+    display: flex;
+}
+
 #login {
     position: absolute;
-    margin: 0%;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 35px;
 }
 
 #login input:first-child {
-    width: 200px;
-    height: 30px;
+    width: 220px;
     border-radius: 10px;
 }
 
 #login input:last-child {
-    height: 36px;
     border-radius: 10px;
-    transform: translate(0%, 1%);
     cursor: pointer;
 }
 
