@@ -33,27 +33,27 @@
     transform: translate(-50%, -50%);
 }
 
-.todoFormStyle {
+#todo-form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.todoInputStyle {
+#todo-form input:first-child {
     width: 300px;
     height: 30px;
     border-radius: 10px;
 }
 
-.todoSubmitStyle {
+#todo-form input:last-child {
     height: 36px;
     border-radius: 10px;
     transform: translate(0%, 3%);
     cursor: pointer;
 }
 
-.todoListStyle {
+#todo-list {
     color: white;
     padding: 0%;
     margin: 0%;
