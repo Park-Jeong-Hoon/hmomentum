@@ -56,8 +56,3 @@ if(getTodos) { //localStorage에 todos배열에 대한 내용이 있을 경우
 }
 
 todoForm.addEventListener("submit", todoSubmit);
-
-todoForm.classList.add("todoFormStyle");
-todoInput.classList.add("todoInputStyle");
-todoBtn.classList.add("todoSubmitStyle");
-todoList.classList.add("todoListStyle");
