@@ -99,27 +99,19 @@
     z-index: -1;
 }
 
-.sayingStyle {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    font-size: 15px;
-    text-align: center;
-    color: aliceblue;
+#famous-saying {
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.whoStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    text-align: center;
     font-size: 15px;
     color: aliceblue;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #weather span{
