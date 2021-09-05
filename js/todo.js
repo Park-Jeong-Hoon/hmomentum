@@ -27,7 +27,7 @@ function drawTodo(newTodo) { //할 일 목록을 화면에 나타내주는 함�
     span.innerText = newTodo.name; //span 태그의 내용으로는 newTodo의 name 속성 할당
     span.classList.add("todoSpanStyle");
     const btn = document.createElement("button"); //button 태그 생성
-    btn.innerText = "삭제";
+    btn.innerText = "X";
     btn.addEventListener("click", deleteTodo);
     btn.classList.add("todoDeleteStyle");
     li.appendChild(span); //li의 자식 태그로 span 추가(element를 생성을 하더라고 appendChild를 해주지 않으면 화면에 안나타남.)
