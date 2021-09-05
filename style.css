@@ -65,18 +65,20 @@
 }
 
 .todoliStyle {
-    font-size: 30px;
-    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    font-size: 25px;
 }
 
 .todoSpanStyle {
-    font-size: 30px;
+    align-self: center;
+    margin-right: 10px;
 }
 
 .todoDeleteStyle {
-    height: 36px;
+    align-self: center;
     border-radius: 10px;
-    transform: translate(10%, -10%);
     cursor: pointer;
 }
 
